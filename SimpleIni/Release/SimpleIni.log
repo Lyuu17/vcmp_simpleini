@@ -1,0 +1,22 @@
+﻿Compilación iniciada a las 03/09/2016 3:26:33.
+     1>Proyecto "C:\Users\Ankris\Documents\GitHub\vcmp_simpleini\SimpleIni\SimpleIni.vcxproj" en el nodo 2 (Build destinos).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _WINDLL /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SQFuncs.cpp
+         SQFuncs.cpp
+     1>SQFuncs.cpp(123): warning C4800: 'SQBool' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>SQFuncs.cpp(254): warning C4800: 'SQBool' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>SQFuncs.cpp(433): warning C4244: 'argumento' : conversión de 'double' a 'SQFloat'; posible pérdida de datos
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\SimpleIni32.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\bin\SimpleIni32.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\SimpleIni32.lib" /MACHINE:X86 /SAFESEH /DLL Release\dllmain.obj
+         Release\SQEvents.obj
+         Release\SQFuncs.obj
+            Creando biblioteca ..\bin\SimpleIni32.lib y objeto ..\bin\SimpleIni32.exp
+         Generando código
+         Generación de código finalizada
+         SimpleIni.vcxproj -> C:\Users\Ankris\Documents\GitHub\vcmp_simpleini\SimpleIni\..\bin\SimpleIni32.dll
+     1>Compilación del proyecto terminada "C:\Users\Ankris\Documents\GitHub\vcmp_simpleini\SimpleIni\SimpleIni.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:04.49

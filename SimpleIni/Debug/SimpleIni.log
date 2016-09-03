@@ -1,0 +1,22 @@
+﻿Compilación iniciada a las 03/09/2016 2:05:20.
+     1>Proyecto "C:\Users\Ankris\Documents\GitHub\vcmp_simpleini\SimpleIni\SimpleIni.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _WINDLL /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp SQEvents.cpp SQFuncs.cpp
+         SQFuncs.cpp
+     1>c:\users\ankris\documents\github\vcmp_simpleini\simpleini\sqfuncs.cpp(91): warning C4800: 'SQBool' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\users\ankris\documents\github\vcmp_simpleini\simpleini\sqfuncs.cpp(173): warning C4800: 'SQBool' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\users\ankris\documents\github\vcmp_simpleini\simpleini\sqfuncs.cpp(278): warning C4244: 'argumento' : conversión de 'double' a 'SQFloat'; posible pérdida de datos
+         SQEvents.cpp
+         dllmain.cpp
+         Generando código...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ankris\Documents\GitHub\vcmp_simpleini\Debug\SimpleIni.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ankris\Documents\GitHub\vcmp_simpleini\Debug\SimpleIni.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ankris\Documents\GitHub\vcmp_simpleini\Debug\SimpleIni.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\SQEvents.obj
+         Debug\SQFuncs.obj
+            Creando biblioteca C:\Users\Ankris\Documents\GitHub\vcmp_simpleini\Debug\SimpleIni.lib y objeto C:\Users\Ankris\Documents\GitHub\vcmp_simpleini\Debug\SimpleIni.exp
+         SimpleIni.vcxproj -> C:\Users\Ankris\Documents\GitHub\vcmp_simpleini\Debug\SimpleIni.dll
+     1>Compilación del proyecto terminada "C:\Users\Ankris\Documents\GitHub\vcmp_simpleini\SimpleIni\SimpleIni.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:10.73
